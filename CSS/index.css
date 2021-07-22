@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Marck+Script&family=Yellowtail&family=Yomogi&display=swap");
+
+/* background: 141819; 
+accent: EDC768;
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #141819;
+}
+
+.background {
+  background-image: url("../Assets/img-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vh;
+}
+
+.color_overlay {
+  background-color: #1418199f;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  width: 70%;
+  color: white;
+  font-size: 70px;
+  margin-left: 85%;
+  padding-top: 40%;
+  font-family: "Marck Script", cursive;
+}
+
+.social_links {
+  display: flex;
+  height: 30px;
+  width: 50%;
+  padding-top: 20px;
+  margin-left: 100%;
+}
+
+.social_links > a {
+  color: #edc768;
+}
