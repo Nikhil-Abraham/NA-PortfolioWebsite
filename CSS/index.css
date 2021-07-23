@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Marck+Script&family=Yellowtail&family=Yomogi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura&family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 /* background: 141819; 
-accent: EDC768;
+yellow: EDC768;
+ pink: #f9525a;
+ bluegrey: #404457;
+ green: #51fa79;
 */
 
 body {
@@ -11,37 +17,122 @@ body {
   background-color: #141819;
 }
 
-.background {
-  background-image: url("../Assets/img-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vh;
-}
-
-.color_overlay {
-  background-color: #1418199f;
-  height: 100%;
-  width: 100%;
-}
-
-.header {
-  width: 70%;
-  color: white;
-  font-size: 70px;
-  margin-left: 85%;
-  padding-top: 40%;
-  font-family: "Marck Script", cursive;
-}
-
 .social_links {
   display: flex;
-  height: 30px;
-  width: 50%;
-  padding-top: 20px;
-  margin-left: 100%;
+  flex-direction: column;
+  float: right;
+  padding: 20px;
+  height: 20px;
+  margin-left: auto;
 }
 
 .social_links > a {
-  color: #edc768;
+  color: #dedede;
+  padding: 15px;
+}
+
+.project_area {
+  background-color: #fff;
+}
+
+.projects,
+.certifications_title {
+  padding-top: 60px;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: rgb(90, 90, 90);
+  font-family: "Raleway", sans-serif;
+}
+
+.project_card {
+  display: flex;
+  padding: 40px;
+}
+
+.project_item {
+  display: flex;
+  background-color: #404457;
+  margin: 40px;
+}
+
+.project_img {
+  width: 400px;
+}
+
+.discription_box {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discription {
+  color: white;
+  padding: 30px;
+  font-family: "Play", sans-serif;
+  font-size: 15px;
+}
+
+.discription_title {
+  font-size: 30px;
+}
+
+.bio {
+  background-color: #1f2932;
+}
+
+.bio_description {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  padding-top: 160px;
+}
+
+.green {
+  color: #51fa79;
+}
+
+.bio_pic_area {
+  width: 50%;
+  height: 100%;
+}
+
+.bio_pic {
+  width: 100%;
+}
+
+.bio_area {
+  display: flex;
+  width: 100%;
+}
+
+.bio_text {
+  font-size: 20px;
+  width: 70%;
+  padding: 20px;
+}
+
+.name {
+  font-family: "Marck Script";
+  text-align: left;
+  padding: 20px;
+}
+
+.bio_container {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  padding: 50px;
+  color: rgb(221, 221, 221);
+}
+
+.certifications {
+  background-color: #1f2932;
+  color: #dedede;
+}
+
+.certifications_title {
+  color: #dedede;
 }
