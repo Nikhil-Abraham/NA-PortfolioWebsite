@@ -3,14 +3,22 @@ import styled from "styled-components";
 
 function Projects() {
   return (
-    <div>
+    <Background>
       <Content>Hey These are my projects!!!</Content>
-    </div>
+    </Background>
   );
 }
 
+const Background = styled.div`
+  background-image: url("images/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+`;
+
 const Content = styled.div`
-  height: 80vh;
+  background-color: #1f29329f;
+  height: inherit;
 `;
 
 export default Projects;

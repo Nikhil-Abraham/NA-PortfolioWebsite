@@ -15,10 +15,10 @@ function Header() {
           <a href="">
             <FaInstagram size="1.6em" color="#fff" />
           </a>
-          <a href="">
+          <a href="https://linkedin.com/in/nikhil-m-abraham/" target="_blank">
             <FaLinkedin size="1.6em" color="#fff" />
           </a>
-          <a href="">
+          <a href="https://github.com/Nikhil-Abraham" target="_blank">
             <FaGithub size="1.6em" color="#fff" />
           </a>
         </Social>
