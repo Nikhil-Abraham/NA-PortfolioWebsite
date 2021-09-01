@@ -4,20 +4,22 @@ import styled from "styled-components";
 function Projects() {
   return (
     <Background>
-      <Content>Hey These are my projects!!!</Content>
+      <Content>&#60; Projects &#47; &#62;</Content>
     </Background>
   );
 }
 
 const Background = styled.div`
-  background-image: url("images/bg3.jpg");
+  /* background-image: url("images/bg3.jpg"); */
+  background-color: #e9edf0;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 `;
 
 const Content = styled.div`
-  background-color: #1f29329f;
+  font-size: 25px;
+  font-family: "Comfortaa", cursive;
   height: inherit;
 `;
 
